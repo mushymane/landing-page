@@ -1,13 +1,56 @@
-header nav ul li{
-    display: inline;
-
+* {
+    font-family: monospace;
+    background-color: wheat;
 }
 
+a {
+    text-decoration: none;
+    font-size:20px;
+    padding: 30px;
+    font-weight: bold;
+}
 
-section img{
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+header {
+    display: inline;
+    background-color: slategray;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+section img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     height: 200px;
+    padding: 30px;
+}
+
+.links1 {
+    color: rgb(230, 209, 27);
+}
+
+.links2 {
+    color:rgb(23, 78, 139);
+}
+
+.center {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+#footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }

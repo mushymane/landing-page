@@ -8,24 +8,41 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <h1>hellooo</h1>
+    <header class="header">
+        <h1>Coding 101</h1>
         <nav>
-            <ul>
-                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
-                <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
-                <li><a href="https://www.quora.com/">Quora</a></li>
-                <li><a href="https://www.google.com/">Google</a></li>
+            <ul class="center">
+                <li><a class="links1" href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a class="links2" href="https://stackoverflow.com/">Stack Overflow</a></li>
+                <li><a class="links1" href="https://www.quora.com/">Quora</a></li>
+                <li><a class="links2" href="https://www.google.com/">Google</a></li>
             </ul>
         </nav>
     </header>
+
+    <div >
+        <section class="center" id="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" alt="html logo">
+            <br>
+            <p>HTML is one of the core programming languages for web development</p>
+        </section>
+
+        <br>
     
-    <section id="image">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" alt="html logo">
-    </section>
+        <section class="center">
+            <h2>Contact</h2>
+            <form action="">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="name" name="name" value="Your name here"><br>
+                <label for="lname">Email:</label><br>
+                <input type="email" id="email" name="email" value="Your email here"><br><br>
+                <input type="submit" value="Submit">
+              </form> 
+        </section>
+    </div>
 
     <footer>
-
+        <h3 id="footer">Contact me at: blank@gmail.com</h3>
     </footer>
 </body>
 </html>
